@@ -10,9 +10,9 @@ export default function Occupation() {
       <div>
         <Image
           alt="Fahmin Guliyev"
-          height={130}
-          width={130}
-          src="/static/images/avatar.webp"
+          height={200}
+          width={200}
+          src="/static/images/avatar.JPEG"
           className="rounded-full object-scale-down grayscale"
         />
       </div>

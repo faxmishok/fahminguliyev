@@ -58,7 +58,7 @@ export default function Intro() {
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            I&apos;m passionate about cutting-edge, pixel perfect UI and intuitively implemented UX.
+            I&apos;m passionate about cutting-edge UI/UX, backend development & security.
           </span>
         </div>
       </div>

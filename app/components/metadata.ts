@@ -9,7 +9,7 @@ export const siteMetadata = {
   siteRepo: 'https://github.com/faxmishok/fahminguliyev',
   siteLogoDark: '/static/images/logo-white.svg',
   siteLogoLight: '/static/images/logo-black.svg',
-  image: '/static/images/avatar.webp',
+  image: '/static/images/avatar.JPEG',
   socialBanner: '/static/images/twitter-card.png',
   email: 'fahminguliyev6@gmail.com',
   github: 'https://github.com/faxmishok',
