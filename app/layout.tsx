@@ -11,11 +11,11 @@ import { ReactNode } from 'react';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Dale Larroder',
-    default: 'Dale Larroder',
+    template: '%s | Fahmin Guliyev',
+    default: 'Fahmin Guliyev',
   },
   description: 'I build things for the web.',
-  metadataBase: new URL('https://dalelarroder.com'),
+  metadataBase: new URL('https://fahminguliyev.com'),
 };
 
 interface RootLayoutProps {

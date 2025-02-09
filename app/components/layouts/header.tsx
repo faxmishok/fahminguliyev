@@ -1,15 +1,26 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import classNames from 'classnames';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useTheme } from 'next-themes';
 import { navigationLinks } from './constants';
 import MobileNav from './mobile-nav';
 import SectionContainer from './section-container';
 import ThemeSwitch from './theme-switch';
+import { siteMetadata } from '../metadata';
 
 export default function Header() {
   const pathName = usePathname();
+  const { theme, resolvedTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => setMounted(true), []);
+
+  const currentTheme = theme === 'system' ? resolvedTheme : theme;
+
+  const logoSrc = currentTheme === 'dark' ? siteMetadata.siteLogoDark : siteMetadata.siteLogoLight;
 
   return (
     <SectionContainer>
@@ -20,13 +31,16 @@ export default function Header() {
               href="/"
               className={classNames(
                 'horizontal-underline hidden text-3xl font-extrabold sm:block',
-                {
-                  'horizontal-underline-active': pathName === '/',
-                }
+                { 'horizontal-underline-active': pathName === '/' }
               )}
-              aria-label="d."
+              aria-label="FG."
             >
-              d.
+              <img
+                // Until the component is mounted, default to the dark logo.
+                src={mounted ? logoSrc : siteMetadata.siteLogoDark}
+                alt="FG."
+                className="w-24 sm:w-32 md:w-40 h-auto object-contain"
+              />
             </Link>
           </div>
           <div className="flex items-center space-x-3 text-base leading-5">
