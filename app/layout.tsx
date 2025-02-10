@@ -29,6 +29,17 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon.ico" />
         <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon.ico" />
+
+        <meta property="og:title" content="Fahmin | Developer" />
+        <meta property="og:description" content="Portfolio Website of Fahmin Guliyev" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/faxmishok/image/upload/v1739220928/og-image.png"
+        />
+        <meta property="og:url" content="https://fahminguliyev.com" />
+        <meta property="og:site_name" content="Portfolio Website" />
+        <meta property="og:type" content="website"></meta>
+
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="theme-color" content="#000000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
