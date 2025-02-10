@@ -44,6 +44,12 @@ export default function Hero() {
               >
                 Read more about me &rarr;
               </Link>
+              <Link
+                href="/resume"
+                className="underline-magical text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
+              >
+                My Resume
+              </Link>
             </div>
             <motion.div
               animate={{
