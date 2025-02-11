@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import classNames from 'classnames';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useTheme } from 'next-themes';
 import { navigationLinks } from './constants';
@@ -35,10 +36,11 @@ export default function Header() {
               )}
               aria-label="FG."
             >
-              <img
-                // Until the component is mounted, default to the dark logo.
+              <Image
                 src={mounted ? logoSrc : siteMetadata.siteLogoDark}
                 alt="FG."
+                width={306} // intrinsic width
+                height={133} // intrinsic height
                 className="w-24 sm:w-32 md:w-40 h-auto object-contain"
               />
             </Link>
