@@ -2,6 +2,13 @@ import { Project } from './types';
 
 export const projects: Project[] = [
   {
+    title: 'Seren.iTa',
+    src: 'serenita.png',
+    color: '#d5c2b9',
+    url: 'https://faxmishok.github.io/serenita-app/',
+    role: 'Backend Developer',
+  },
+  {
     title: 'Shattered Silence',
     src: 'shattered_silence.png',
     color: '#dbeafe',
@@ -11,7 +18,7 @@ export const projects: Project[] = [
   {
     title: 'Villa Fiori',
     src: 'hotel.png',
-    color: '#dbeafe',
+    color: '#e9b9a2',
     url: 'https://github.com/faxmishok/villafiori-hotel',
     role: 'Frontend Developer',
   },
@@ -26,7 +33,7 @@ export const projects: Project[] = [
     title: 'GIS Web Platform',
     src: 'gis.png',
     color: '#fae8ff',
-    url: 'https://fahminguliyev.com/gis',
+    url: 'https://faxmishok.github.io/gis/',
     role: 'Fullstack Developer',
   },
   {
@@ -47,7 +54,7 @@ export const projects: Project[] = [
     title: 'Conway`s Game of Life',
     src: 'game-of-life.png',
     color: '#ddd6fe',
-    url: 'https://fahminguliyev.com/game-of-life',
+    url: 'https://faxmishok.github.io/game-of-life',
     role: 'Fullstack Developer',
   },
   {
