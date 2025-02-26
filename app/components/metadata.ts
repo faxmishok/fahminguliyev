@@ -11,7 +11,7 @@ export const siteMetadata = {
   siteLogoLight: '/static/images/logo-black.svg',
   image: '/static/images/avatar.JPEG',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'fahminguliyev6@gmail.com',
+  email: 'dev@fahminguliyev.com',
   github: 'https://github.com/faxmishok',
   twitter: 'https://x.com/notchwonders',
   facebook: 'https://facebook.com/faxmishok',

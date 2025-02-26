@@ -6,7 +6,7 @@ export default function Contact() {
           Let&apos;s make something <br></br> great together
         </span>
         <span className="text-3xl md:text-6xl xl:text-8xl text-end">
-          fahminguliyev6@<span className="underline">gmail.com</span>
+          dev@<span className="underline">fahminguliyev.com</span>
         </span>
       </div>
     </section>
