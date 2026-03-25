@@ -2,6 +2,13 @@ import { Project } from './types';
 
 export const projects: Project[] = [
   {
+    title: 'Passave',
+    src: 'passave.png',
+    color: '#ddd6fe',
+    url: 'https://passave.org',
+    role: 'Fullstack Developer',
+  },
+  {
     title: 'Seren.iTa',
     src: 'serenita.png',
     color: '#d5c2b9',
@@ -21,13 +28,6 @@ export const projects: Project[] = [
     color: '#e9b9a2',
     url: 'https://github.com/faxmishok/villafiori-hotel',
     role: 'Frontend Developer',
-  },
-  {
-    title: 'Passave',
-    src: 'passave.png',
-    color: '#ddd6fe',
-    url: 'https://github.com/faxmishok/passave',
-    role: 'Fullstack Developer',
   },
   {
     title: 'GIS Web Platform',
